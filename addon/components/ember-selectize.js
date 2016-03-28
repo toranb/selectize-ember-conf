@@ -364,7 +364,7 @@ export default Ember.Component.extend({
   * In addition to emitting the selection object, a selection value is sent via `select-value` based on `optionValuePath`
   */
   _updateSelection(selection) {
-    this.set('selection', selection);
+    //this.set('selection', selection);
 
     // allow the observers and computed properties to run first
     Ember.run.schedule('actions', this, function() {
